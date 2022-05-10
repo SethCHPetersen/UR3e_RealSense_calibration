@@ -30,7 +30,7 @@ rosrun auto_calibrate getCalibrationPositions.py
 This will generate a .txt file which you will have to get the file path to and remap the file path within CalibrateUsingPositionList.py. 
 CalibrateUsingPositionList.py is used to go to those positions that you selected with getCalibrationPositions.py. 
 
-OOnce you have those positions and CalibrateUsingPositionList.py file path changed, you are ready to start calibration.
+Once you have those positions and CalibrateUsingPositionList.py file path changed, you are ready to start calibration.
 
 Run these commands in this order, waiting for each to stabilize before starting the next.
 ```
@@ -40,5 +40,5 @@ roslaunch realsense2_camera rs_rgbd.launch
 roslaunch easy_handeye ur3e_realsense_handeyecalibration.launch eye_on_hand:=false
 ```
 
-Once those are run as in https://github.com/portgasray/ur5_realsense_calibration. 
+Once those are run, the work flow is the same as in https://github.com/portgasray/ur5_realsense_calibration, except that instead of using the auto matic robot move gui they provide, CalibrateUsingPositionList.py should be used. 
 
