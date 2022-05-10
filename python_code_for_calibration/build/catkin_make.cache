@@ -1,2 +1,0 @@
-auto_calibrate
--DCATKIN_DEVEL_PREFIX=/home/seth/python_code_for_calibration/devel -DCMAKE_INSTALL_PREFIX=/home/seth/python_code_for_calibration/install -G Unix Makefiles
