@@ -1,0 +1,8 @@
+prefix=/home/seth/python_code_for_calibration/devel
+
+Name: auto_calibrate
+Description: Description of auto_calibrate
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
